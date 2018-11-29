@@ -1,0 +1,65 @@
+a {
+    cursor: pointer;
+}
+
+header {
+    padding: 15px 0px;
+    margin: 0px 0px 50px;
+}
+
+header nav {
+    font-size: 0px;
+    text-align: right;
+}
+
+header nav a {
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fff;
+    display: inline-block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+header nav a:first-child {
+    padding: 8px 15px;
+    margin: 15px 7px;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+header nav :first-child:hover {
+    background: #fff;
+    color: #202020;
+}
+
+header nav a:nth-child(n+2) {
+    padding: 8px 15px;
+    margin: 15px 7px;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+header nav a:nth-child(n+2):hover {
+    background: #fff;
+    color: #202020;
+}
+
+header nav, main, .popup {
+    width: 72vw;
+    margin-left: -36vw;
+}
+
+.popup.small {
+    width: 400px;
+    margin-left: -200px;
+}
+
+header nav, main {
+    position: relative;
+    margin: 0 auto;
+}

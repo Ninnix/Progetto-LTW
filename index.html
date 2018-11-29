@@ -1,0 +1,144 @@
+<html>
+    <head>
+        
+        <title>Homepage</title> 
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="header.css" rel="stylesheet" type="text/css" />
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script type="text/javascript" src="script/slideshow.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container"></div>
+                <div class="cont-logo">
+                    <div class="logo-wrap">
+                        <a href="index.html"> <img id="logo-img" src="img/logo.png" alt="logoroma"> </a>
+                    </div>
+                    <div class="text-wrap">
+                        <h1 class="titolo-text">AndroidBlog</h1>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        
+
+            <nav>
+                <a href="#">Samsung</a>
+                <a href="#">Huawei</a>
+                <a href="#">Xiaomi</a>
+                <a href="#">Oneplus</a>
+            </nav>
+        </header>
+        <br>
+    
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <a href="news1.html"><img class="foto-slideshow" src="img/copertine/pantheon.jpg" style="width:100%"></a>
+                <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <a href="news1.html"><img class="foto-slideshow" src="img/copertine/pantheon.jpg" style="width:100%"></a>
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <a href="news1.html"><img class="foto-slideshow" src="img/copertine/san pietro.jpg" style="width:100%"></a>
+                <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <!-- sezione news -->
+        <section id="news-section">
+            <div class="container">
+                <div class="galleria">
+                    <div class="titolo">
+                        <h2>Ultime Notizie</h2>
+                    </div>
+                    <div class="sezione-riga">
+                        <div class="colonna">                         
+                            <a href="news1.html" class="link-pagine">
+                                <img class="foto-sezioni" src="img/copertine/colosseo.jpg" alt="news1">
+                                <h3 class="text-centrato">news1</h3>
+                            </a>                        
+                        </div>
+                        <div class="colonna">
+                            <a href="news2.html" class="link-pagine">                      
+                                <img class="foto-sezioni" src="img/copertine/pantheon.jpg" alt="news2">
+                                <h3 class="text-centrato">news2</h3>         
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sezione-riga">
+                        <div class="colonna"> 
+                            <a href="news3.html" class="link-pagine">
+                                <img class="foto-sezioni" src="img/copertine/san pietro.jpg" alt="news3">
+                                <h3 class="text-centrato">news3</h3>  
+                            </a>                                           
+                        </div>
+                        <div class="colonna">                          
+                            <img class="foto-sezioni" src="img/copertine/piramide.jpg" alt="news4">
+                            <h3 class="text-centrato">news4</h3>                          
+                        </div>
+                    </div>
+                    <div class="sezione-riga">
+                        <div class="colonna">                                
+                            <img class="foto-sezioni" src="img/copertine/altpat.jpg" alt="news5">
+                            <h3 class="text-centrato">news5</h3>
+                        </div>
+                        <div class="colonna">                               
+                            <img class="foto-sezioni" src="img/copertine/forimp.jpg" alt="news6">
+                            <h3 class="text-centrato">news6</h3>                          
+                        </div>
+                    </div>
+                    <div class="sezione-riga">
+                        <div class="colonna">                               
+                            <img class="foto-sezioni" src="img/copertine/castelsant.jpg" alt="news7">
+                            <h3 class="text-centrato">news7</h3>                         
+                        </div>
+                        <div class="colonna">                               
+                            <img class="foto-sezioni" src="img/copertine/castelsant.jpg" alt="news7">
+                            <h3 class="text-centrato">news7</h3>                         
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="credits_sez">
+                    <h5>Credits:</h5>
+                    <span class="creator">D'Evangelista Nicolò</span><br/>
+                    <span class="creator">Gasperini Luca</span>
+                </div>
+                <div id="social_sez" class="social_sez">
+                    <h5>Seguici:</h5>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube-play"></a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
