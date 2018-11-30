@@ -102,13 +102,14 @@ body {
   
   /* Caption text */
   .text-slideshow {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
+    color: #595959;
+    background-color: #fff;
+    font-size: 60px;
     position: absolute;
-    bottom: 8px;
+    bottom: 30px;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding: 0% 0% 0% 0%;
   }
   
   /* The dots/bullets/indicators */
@@ -155,7 +156,7 @@ body {
     color: #595959;
     width: auto;
     height: auto;
-    padding: 2% 0 2% 10%;
+    padding: 2% 0 2% 15%;
 }
 
 .galleria {
@@ -216,7 +217,7 @@ body {
 
 .credits_sez {
     color: #595959;
-    width: 40%;
+    width: auto;
     height: 150px;
     float: left;
     padding: 0% 0% 0% 15%;
@@ -225,10 +226,11 @@ body {
 .social_sez {
     color: #595959;
     text-align: center;
-    width: 25%;
+    font-size: 15px;
+    width: auto;
     height: 150px;
     float: right;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 /*------ social buttons ------*/
