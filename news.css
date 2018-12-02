@@ -7,10 +7,28 @@
     margin-right: auto;
 }
 
+
 .text-titolo {
     text-align: left;
     color: #595959;
     padding: 0% 0% 0% 5%
+}
+
+
+/* 
+.text-titolo {
+    color: #595959;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 16px;
+    width: 75%;
+    text-align: left;
+    padding: 0% 0% 0% 5%;
+  }
+  */
+
+.text-sottotitolo {
+    color: #595959;
 }
 
 .cover-img {
