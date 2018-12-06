@@ -8,3 +8,6 @@ Lista articoli:
 6) Lineage OS http://www.androidiani.com/news/lineage-os-addio-30-dispositivi-349997
 7) Xiaomi Mi Mix 3 https://www.androidworld.it/2018/11/30/xiaomi-mi-mix-3-si-apre-al-modding-disponibili-sorgenti-del-kernel-597979/
 8) Whatsapp http://www.androidiani.com/news/whatsapp-disponibile-tablet-android-350159
+
+Possibili feature:
+Segnala una news un form in cui si segnalano nuove notizie riportando una breve descrizione e una fonte
