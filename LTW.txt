@@ -10,4 +10,4 @@ Lista articoli:
 8) Whatsapp http://www.androidiani.com/news/whatsapp-disponibile-tablet-android-350159
 
 Possibili feature:
-Segnala una news un form in cui si segnalano nuove notizie riportando una breve descrizione e una fonte
+Segnala una news un form in cui si segnalano nuove notizie riportando una breve descrizione (una sezione di opzioni) e una fonte e email 
