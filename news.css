@@ -9,7 +9,7 @@
 
 .text-titolo {
     text-align: left;
-    width: 60%;
+    width: 50%;
     color: #595959;
     padding: 0% 0% 0% 5%
 }
@@ -32,6 +32,7 @@
 
 .cover-img {
     border-radius: 16px;
+    width: auto;
     height: 80%;
     display: block;
     margin-left: auto;
