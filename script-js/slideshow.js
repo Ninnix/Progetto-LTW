@@ -11,13 +11,14 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    //var slides = document.getElementsByClassName("mySlides");
+    var slides = $(".mySlides");
+    var dots = $(".dot");
     if (n > slides.length) { 
-        slideIndex = 1 
+        n = 1 
     }    
     if (n < 1) { 
-        slideIndex = slides.length;
+        n = slides.length;
     }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
@@ -25,6 +26,6 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
+    slides[n-1].style.display = "block";  
+    dots[n-1].className += " active";
 }

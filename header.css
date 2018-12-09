@@ -1,16 +1,42 @@
-a {
+header nav #filtro:nth-child(n):hover {
+    background: #fff;
+    color: #202020;
+}
+
+header nav #filtro {
     cursor: pointer;
+    border: none;
+    background: none;
+    padding: 8px 15px;
+    margin: 15px 7px;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fff;
+    display: inline-block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    transition: all .2s ease;
+    border-radius: 5px;
 }
 
-header {
-    padding: 15px 0px;
-    margin: 0px 0px 50px;
+/*a {
+    cursor: pointer;
+    background: none;
 }
 
-header nav {
-    font-size: 0px;
-    text-align: right;
-    
+header nav a:nth-child(n+2) {
+    padding: 8px 15px;
+    margin: 15px 7px;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+header nav a:nth-child(n+2):hover {
+    background: #fff;
+    color: #202020;
 }
 
 header nav a {
@@ -31,21 +57,20 @@ header nav a:first-child {
     margin: 15px 7px;
     border-radius: 5px;
     transition: all .2s ease;
+}*/
+
+header {
+    padding: 15px 0px;
+    margin: 0px 0px 50px;
+}
+
+header nav {
+    font-size: 0px;
+    text-align: right;
+    
 }
 
 header nav :first-child:hover {
-    background: #fff;
-    color: #202020;
-}
-
-header nav a:nth-child(n+2) {
-    padding: 8px 15px;
-    margin: 15px 7px;
-    border-radius: 5px;
-    transition: all .2s ease;
-}
-
-header nav a:nth-child(n+2):hover {
     background: #fff;
     color: #202020;
 }
