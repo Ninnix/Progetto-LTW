@@ -1,9 +1,10 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Homepage</title> 
+        <title>Android Section - Segnala una news</title> 
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="header.css" />
+        <link rel="stylesheet" type="text/css" href="segnala.css" />
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"/>
@@ -30,9 +31,47 @@
         <br/>
     
         <!-- sezione news -->
-        <section id="news-section">
+        <div class="segnala-body">
+            <div class="segnala-titolo">
+                <h1>Segnala</h1>
+            </div>
+            
+            <div class="segnala-news">Se vuoi segnalare qualcosa alla redazione, se hai trovato una news di cui non abbiamo ancora parlato, 
+                <strong> hai un prodotto o se sei un programmatore e vuoi rendere pubblica la tua applicazione insomma, 
+                se trovi qualsiasi cosa pensi sia utile per tutti e ne vuoi parlare, allora compila il modulo qui 
+                sotto ed inviaci la tua segnalazione o recensione!</strong>
+            </div>
 
-        </section>
+            <br/><br/><br/>
+            <div class="segnala-form">
+                <form action="" method="POST" name="segnalaform" onsubmit="">
+                    
+                    <label for="nome">Nome o Nickname</label>
+                    <input type="text" name="nome" size="18" required><br/>
+
+                    <label for="email">Email</label>
+                    <input type="text" name="email" required><br/>
+
+                    <label for="topic">Country</label>
+                    <select id="topic" name="Topic">
+                      <option value="news">Segnalazione notizia</option>
+                      <option value="feedback">Feedback o domanda sul sito</option>
+                      <option value="altro">Altro</option>
+                    </select>
+
+                    <label for="descrizione">Descrizione</label><br/>
+                    <textarea name="descrizione" cols="40" rows="10" required></textarea><br/>
+
+                    <label for="url1">URL notizia</label>
+                    <input type="text" name="url1"><br/>
+
+                    <label for="url2">URL immagine</label>
+                    <input type="text" name="url2"><br/>
+
+                    <input type="submit" value="Invia">
+                </form>
+            </div>
+        </div>
 
         <footer>
             <div class="container">
@@ -46,9 +85,6 @@
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
                     <a href="#" class="fa fa-youtube-play"></a>
-                </div>
-                <div id="segnala_sez" class="segnala_sez">
-                    <h4>Segnala una news</h4>
                 </div>
             </div>
         </footer>
