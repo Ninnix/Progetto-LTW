@@ -27,10 +27,10 @@
             </div>
         
             <nav>
-				<input id="filtro" type="button" value="Samsung" onclick="filtra(this.value);changeCSS('stylefilter.css', 0)"/>
-				<input id="filtro" type="button" value="Xiaomi" onclick="filtra(this.value);changeCSS('stylefilter.css', 0)"/>
-				<input id="filtro" type="button" value="OnePlus" onclick="filtra(this.value);changeCSS('stylefilter.css', 0)"/>
-				<input id="filtro" type="button" value="Google" onclick="filtra(this.value);changeCSS('stylefilter.css', 0)"/>
+				<input id="filtro" type="button" name="Samsung" value="Samsung" onclick="filtra(this.name);changeCSS('stylefilter.css', 0)"/>
+				<input id="filtro" type="button" name="Xiaomi" value="Xiaomi" onclick="filtra(this.name);changeCSS('stylefilter.css', 0)"/>
+				<input id="filtro" type="button" name="OnePlus" value="OnePlus" onclick="filtra(this.name);changeCSS('stylefilter.css', 0)"/>
+				<input id="filtro" type="button" name="Google" value="Google" onclick="filtra(this.name);changeCSS('stylefilter.css', 0)"/>
                 <!--<a href="#">Samsung</a>
                 <a href="#">Huawei</a>
                 <a href="#">Xiaomi</a>
@@ -136,6 +136,7 @@
                     </div> 
                 </div>
             </div>
+            <input id="filtroTutte" style="display:none;" type="button" name="Tutte" value="Tutte le news" onclick="filtra(this.name);changeCSS('style.css', 0)"/>
         </section>
 
         <footer>

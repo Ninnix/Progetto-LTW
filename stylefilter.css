@@ -201,6 +201,32 @@ body {
     padding: 0% 0% 0% 0%;
 }
 
+section #filtroTutte:nth-child(n):hover {
+    background: #595959;
+    color: #fff;
+    cursor: pointer;
+}
+
+section #filtroTutte {
+	cursor: pointer;
+    border: none;
+    background: none;
+    padding: 8px 15px;
+	margin: auto; 
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #595959;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    transition: all .2s ease;
+    border-radius: 5px;
+
+}
+
 /*------ link alle pagine ------*/
 
 .link-pagine {
