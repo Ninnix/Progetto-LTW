@@ -24,6 +24,10 @@ header nav #filtro {
     border-radius: 5px;
 }
 
+header nav #filtro:focus {
+    outline: none;
+  }
+
 /*a {
     cursor: pointer;
     background: none;
