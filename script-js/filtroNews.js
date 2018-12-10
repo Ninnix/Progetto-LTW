@@ -5,7 +5,7 @@ function filtra(marca) {
 	console.log("Filtro su ",titolo," \ne colonne ",elementi );
 	if(marca!="Tutti"){
 		titolo[0].innerHTML = "Ulitme Notizie "+marca
-							+" <input id=\"chiudi\" height=\"2%\" width=\"2%\"type=\"image\" src=\"img/x.png\" onclick=\"filtra(\'Tutti\')\">";
+							+" <input id=\"chiudi\" height=\"20px\" width=\"20px\"type=\"image\" src=\"img/x.png\" onclick=\"filtra(\'Tutti\')\">";
 		for (var i = 0; i<elementi.length; i++){
 		
 			//console.log("element id: ",elementi[i].id," Marca: ",marca);

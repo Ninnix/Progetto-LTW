@@ -1,11 +1,13 @@
 header nav #filtro:nth-child(n):hover {
     background: #fff;
     color: #202020;
+    cursor: pointer;
 }
 
 header nav #filtro {
     cursor: pointer;
     border: none;
+    cursor: pointer;
     background: none;
     padding: 8px 15px;
     margin: 15px 7px;
