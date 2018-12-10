@@ -6,7 +6,7 @@ function filtra(marca) {
 	
 	if(marca!="Tutte"){
 		titolo[0].innerHTML = "Ulitme Notizie "+marca
-							+" <input id=\"chiudi\" height=\"20px\" width=\"20px\"type=\"image\" src=\"img/x.png\" onclick=\"filtra(\'Tutti\');changeCSS(\'style.css\',0)\">";
+							+" <input id=\"chiudi\" height=\"20px\" width=\"20px\"type=\"image\" src=\"img/x.png\" onclick=\"filtra(\'Tutte\');changeCSS(\'style.css\',0)\">";
 		pulsanteTutte[0].style.display="block";
 		for (var i = 0; i<elementi.length; i++){
 		
