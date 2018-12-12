@@ -244,6 +244,11 @@ body {
     text-decoration: none;
 }
 
+.segnala_sez a {
+    color: #595959;
+    text-decoration: none;
+}
+
 .segnala_sez a:visited {
     color: #595959;
     text-decoration: none;

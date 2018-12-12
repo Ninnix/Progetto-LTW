@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Android Section - Segnala una news</title> 
+        <title>Android Section - Visualizza segnalazioni</title> 
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="header.css" />
         <link rel="stylesheet" type="text/css" href="segnala.css" />
@@ -13,7 +13,7 @@
 		<script type="text/javascript" language="javascript" src="script-js/jquery-3.3.1.min.js"> </script>
     </head>
 
-    <body onload="inizializzaStorageSegnalazione();"></body>
+    <body></body>
         <header>
             <div class="container"></div>
                 <div class="cont-logo">
@@ -33,60 +33,23 @@
         <!-- sezione news -->
         <div class="segnala-body">
             <div class="segnala-titolo">
-                <h1>Segnala</h1>
+                <h1>Visualizza Segnalazioni</h1>
             </div>
             
-            <div class="segnala-news">Se vuoi segnalare qualcosa alla redazione, se hai trovato una news di cui non abbiamo ancora parlato, 
-                <strong> hai un prodotto o se sei un programmatore e vuoi rendere pubblica la tua applicazione insomma, 
-                se trovi qualsiasi cosa pensi sia utile per tutti e ne vuoi parlare, allora compila il modulo qui 
-                sotto ed inviaci la tua segnalazione o recensione!</strong>
-            </div>
-
             <br/><br/><br/>
             <div class="segnala-form">
                 
-                <!-- si potrebbe aggiungere action="mailto:redazione@androidsection.com" oppure uno script PHP come https://goo.gl/f6W42q --> 
-                <form action="" method="POST" name="segnalaform" onsubmit="return inserisciSegnalazione();" accept-charset="utf-8">
-                    
-                    <label for="nome">Nome o Nickname</label>
-                    <input type="text" name="nome" size="18" required><br/>
+                <form action="" method="POST" name="showstorage" accept-charset="utf-8">
 
-                    <label for="email">Email</label>
-                    <input type="text" name="email" required><br/>
-
-                    <label for="topic">Topic</label>
-                    <select id="topic" name="topic">
-                      <option value="news">Segnalazione notizia</option>
-                      <option value="feedback">Inviaci la tua app</option>
-                      <option value="feedback">Proposta di collaborazione</option>
-                      <option value="feedback">Feedback o domanda sul sito</option>
-                      <option value="altro">Altro</option>
-                    </select>
-
-                    <label for="descrizione">Descrizione</label><br/>
-                    <textarea name="descrizione" cols="40" rows="10" required></textarea><br/>
-
-                    <label for="url1">URL notizia (opzionale)</label>
-                    <input type="text" name="url1"><br/>
-
-                    <label for="url2">URL immagine (opzionale)</label>
-                    <input type="text" name="url2"><br/>
-
-                    <input type="submit" value="Invia">
-
-                    <!--TEST
                     <input type="button" value="Stampa Storage Semplice" onclick="stampaStorageSemplice();">
                     <input type="button" value="Stampa Storage Tabella" onclick="stampaStorageTabella();">
                     <input type="button" value="Reset Storage" onclick="resetStorageSegnalazione();">
-                    -->
-
+                    
                 </form>
-                
-                <!--
+
                 <hr/>
                     <div id="vistaStorage"></div>
                 <hr/>
-                -->
 
             </div>
         </div>
